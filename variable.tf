@@ -20,3 +20,8 @@ variable "security_group_name"{
     default={}
 }
 
+variable "count"{
+     description = "Number of instances to create"
+    default=1
+}
+
